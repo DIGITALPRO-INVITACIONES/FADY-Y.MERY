@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DigitalPro//Fady Mery//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fady-mery-ceremonia@digitalpro
+DTSTAMP:20261106T120000Z
+DTSTART:20261212T200000Z
+DTEND:20261212T213000Z
+SUMMARY:Boda de Fady y Mery - Ceremonia religiosa
+LOCATION:Capilla San Juan Bautista de Rossi - Barrio Avaroa\, Placedo Mendez 89
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fady-mery-recepcion@digitalpro
+DTSTAMP:20261106T120000Z
+DTSTART:20261212T223000Z
+DTEND:20261213T040000Z
+SUMMARY:Boda de Fady y Mery - Recepción social
+LOCATION:Salón de Eventos Sirius - Cuarto Anillo\, Avenida Roca y Coronado
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fady-mery-segundo-dia@digitalpro
+DTSTAMP:20261106T120000Z
+DTSTART:20261213T200000Z
+DTEND:20261214T000000Z
+SUMMARY:Fady y Mery - Segundo día de celebración
+LOCATION:B/ Nueva Jerusalén\, calle Cantares #20
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
