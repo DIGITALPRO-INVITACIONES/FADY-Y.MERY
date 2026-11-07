@@ -4,3 +4,195 @@
 /* Rosas, eucalipto y papel blanco: diseño de la invitación física. */
 :root{--paper:#fffdfb;--ink:#345d48;--gold:#bd9b61;--beige:#e8efe7}body{background:#e8eee8;color:var(--ink)}main{background:var(--paper);padding-bottom:56px}.defs{position:absolute;width:0;height:0;overflow:hidden}.icon{display:block;width:58px;height:58px;fill:none;stroke:currentColor;stroke-width:1.5;margin:0 auto 24px;color:var(--gold)}.floral{pointer-events:none;position:absolute;width:380px;height:auto;object-fit:contain;filter:none;z-index:0}.cover{background:var(--paper);padding:110px 30px 95px;min-height:100svh}.cover:after{inset:18px;border:1px solid #9cbaa080;background:none;z-index:0;pointer-events:none}.cover-top{right:-20px;top:-35px;width:min(67%,440px)}.cover-bottom{left:-20px;bottom:-35px;width:min(67%,440px);transform:rotate(180deg)}.cover-content{position:relative;z-index:1}.cover h1{font-family:Romance,Georgia,serif;font-size:clamp(64px,10vw,98px);color:var(--ink);line-height:1.15}.cover h1 i{font-size:.55em}.cover-date{font-size:11px}.cover .eyebrow{max-width:300px;margin:0 auto 25px}.envelope{background:#71957b;width:min(100%,360px);box-shadow:0 20px 40px #345d4826;margin:45px auto 25px}.pocket{background:linear-gradient(135deg,#8bac95,#5b8068)}.flap{background:linear-gradient(#a5c2ad,#739780)}.letter{color:var(--ink)}.open-note{color:#5c7a63;background:#fffdfbd9}.hero{padding-top:220px;padding-bottom:70px}.hero-top{top:-18px;right:-20px;width:400px;opacity:.9}.hero>.icon,.hero>.eyebrow,.hero>.names,.hero>.quote,.hero>.date-line,.hero>.ornament{position:relative;z-index:1}.hero>.icon{margin-bottom:20px}.names{font-size:clamp(75px,14vw,110px);margin:25px auto 25px}.names i{font-size:42px;margin:14px auto}.hero .quote{font-size:26px;max-width:570px}.hero .date-line{font-size:19px}.family{background:#eff4ee}.parents p{font-size:21px;line-height:1.9}.parents h3{font-size:12px}.memory{color:var(--gold);white-space:nowrap}.sponsors{background:var(--paper)}.sponsor{padding:27px 0;border-top:1px solid #9bb29c55;max-width:560px;margin:auto}.sponsor h3{font:600 12px/1.7 Nunito;letter-spacing:.08em;color:#708674;margin-bottom:20px}.sponsor p{font:24px/1.6 Lora,serif;margin:0}.sponsor em{font-family:Romance;font-size:29px;color:var(--gold)}.date-section{background:#faf5f2}.calendar{border-color:#9fbea5;background:#fffdfb;border-radius:120px 120px 5px 5px}.days .chosen:before{color:#78967a}.calendar-caption{font:italic 25px Romance}.outline{display:inline-flex;gap:12px;align-items:center;justify-content:center;text-decoration:none;border:1px solid #a8b8a5;background:transparent;color:var(--ink);padding:13px 20px;border-radius:3px;font:14px/1.6 Nunito;cursor:pointer}.outline .icon{width:22px;height:22px;margin:0}.countdown div{border-color:#c4d0be}.celebration{background:#f1f5ef}.events{display:grid;gap:30px}.event{width:100%;border-color:#aec5ae;background:#fffdfb;padding-top:35px}.event .icon{width:58px;height:58px}.event-num{font:46px/1.2 Romance!important;color:#b6c8b4;margin:5px auto 24px!important}.event .eyebrow{font-size:10px;margin-bottom:16px;color:#9d8554}.event h3{font-size:31px}.event .time{color:var(--ink);font-size:42px}.event-date{color:#738371}.event .address{font-size:14px;line-height:1.9;max-width:310px;margin:18px auto}.location{background:#4c765b;color:white;box-shadow:0 7px 22px #345d4819}.location .icon{width:23px;height:23px;margin:0;stroke:currentColor;color:inherit}.gala{font:italic 45px Romance;margin:10px auto 20px;color:#bf9a62}.dresscode{background:var(--paper)}.adults{background:#fbf1f0}.adults h2{font-size:33px}.adults .quote{font-size:28px;margin:20px auto}.adults .body-copy{font-size:14px;max-width:450px}.rsvp{background:#edf3eb}.rsvp>p:not(.eyebrow){font-size:15px}.rsvp .location{max-width:320px}.rsvp .phone{font-size:12px!important;margin:18px 0 0;color:#6c826e}.closing{overflow:hidden;padding-top:70px;padding-bottom:60px;isolation:isolate}.footer-floral{bottom:-80px;left:-80px;width:400px;transform:rotate(180deg);opacity:.35;z-index:-1}.closing-content{position:relative}.signature{font-size:54px}.footer-actions{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:22px;margin-top:30px}.text-link{font-size:13px;color:#56725c;text-decoration:none;border-bottom:1px solid #a9b9a1}.digitalpro{display:inline-block;color:var(--ink);font-size:12px;text-decoration:none;border-bottom:1px solid #afbdab;padding:5px}.credit{margin-bottom:0}.controls{position:fixed;z-index:30;top:12px;right:12px;display:flex;gap:7px}.controls button{font:12px/1.6 Nunito;border:1px solid #becfbe;background:#fffdfbea;border-radius:24px;padding:9px 13px;color:#49664d;box-shadow:0 4px 15px #345d480a;cursor:pointer}#quick-nav{position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;justify-content:center;gap:50px;background:#fffdfbf2;border-top:1px solid #c3d2c2;padding:12px 20px calc(12px + env(safe-area-inset-bottom));backdrop-filter:blur(10px)}#quick-nav a{display:flex;gap:9px;align-items:center;font-size:13px;text-decoration:none;color:var(--ink)}#quick-nav .icon{width:24px;height:24px;margin:0;color:var(--ink)}.petal{background:linear-gradient(135deg,#d99da755,#f1cad166);box-shadow:0 0 7px #f3d4bb33}.motion-off *, .motion-off *:before,.motion-off *:after{animation-play-state:paused!important;transition:none!important;scroll-behavior:auto!important}.motion-off .reveal{opacity:1;transform:none}.motion-off #petals{opacity:0}.motion-off .opening .cover-content{opacity:0}.controls button[aria-pressed=false]{background:#e9eee5}#share-status{font-size:12px;min-height:20px;margin:12px 0}
 @media(max-width:500px){.cover{padding:100px 27px 80px}.cover-top{width:275px;right:-35px;top:-25px;opacity:.8}.cover-bottom{width:285px;left:-45px;bottom:-35px;opacity:.8}.cover h1{font-size:72px;line-height:1.2;max-width:340px}.cover h1 i{display:block;font-size:37px;margin:4px auto}.cover .eyebrow{font-size:9px;max-width:220px}.envelope{margin-top:32px;max-width:310px}.hero{padding-top:195px}.hero-top{width:310px;top:-30px;right:-35px;opacity:.7}.names{font-size:85px}.parents p{font-size:22px}.sponsor p{font-size:23px}.section h2:not(.names){font-size:32px}.hero .quote{font-size:25px}.event h3{font-size:28px}.event{padding:32px 22px;border-radius:140px 140px 5px 5px}.controls{top:9px;right:9px}.controls button{font-size:11px;padding:8px 10px}.closing{padding-bottom:60px}.signature{font-size:49px}}
+
+/* Flores completas y transiciones compartidas con el control de movimiento. */
+.cover {
+  background: radial-gradient(ellipse at 50% 44%, #fffdf9 28%, #f5eee7 100%);
+}
+.cover:after { border: 1px solid #9cbaa088; outline: 1px solid #c5a8713d; outline-offset: 5px; }
+.cover-top, .cover-bottom { animation: flower-breeze 9s ease-in-out infinite alternate; }
+.cover-bottom { animation-delay: -4s; }
+.cover .envelope { border: 1px solid #557c63; }
+.envelope::after {
+  content: "";
+  position: absolute;
+  z-index: 6;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(112deg, transparent 40%, #fff8df30 50%, transparent 61%);
+  background-size: 240% 100%;
+  animation: seal-glimmer 6s ease-in-out infinite;
+}
+.opening .envelope::after { opacity: 0; }
+.hero {
+  isolation: isolate;
+  overflow: hidden;
+  padding-bottom: 114px;
+  background: linear-gradient(#fffdfb, #fffaf5);
+}
+.hero-top { animation: flower-breeze 11s ease-in-out infinite alternate; }
+.hero-bottom {
+  bottom: -38px;
+  left: -34px;
+  width: min(43%, 315px);
+  transform: rotate(180deg);
+  opacity: .6;
+  animation: flower-breeze 11s -4s ease-in-out infinite alternate;
+}
+.hero > .icon { animation: rings-float 4s ease-in-out infinite; }
+.hero > .names { animation: name-entrance 1.15s both; }
+.hero > .date-line, .hero > .quote { animation: name-entrance 1.05s .25s both; }
+
+.love-note { padding: 72px 32px 62px; background: linear-gradient(145deg, #e9f1e7, #f8eae9); }
+.note-paper {
+  position: relative;
+  isolation: isolate;
+  max-width: 590px;
+  margin: 0 auto;
+  padding: 48px 50px 54px;
+  border: 1px solid #b6c4aa;
+  outline: 1px solid #b99b633c;
+  outline-offset: 6px;
+  background: #fffdf9;
+  box-shadow: 0 12px 36px #345d4810;
+}
+.note-flower { width: min(29%, 170px); z-index: -1; opacity: .77; }
+.note-top { right: -12px; top: -19px; }
+.note-bottom { left: -12px; bottom: -19px; transform: rotate(180deg); }
+.note-seal {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin: -78px auto 28px;
+  border: 4px double #b79963;
+  border-radius: 50%;
+  color: #674d29;
+  background: linear-gradient(145deg, #f4e1b8, #c7a473);
+  box-shadow: 0 4px 12px #65481d26;
+}
+.note-seal .icon { width: 34px; height: 34px; color: inherit; margin: 0; }
+.love-note .note-paper h2 { font: 43px/1.05 Romance, Georgia, serif; margin: 0 0 19px; }
+.note-paper > p { font: 16px/1.85 Lora, Georgia, serif; max-width: 400px; margin: 0 auto; }
+.note-paper .ornament { margin: 17px 0 0; font-size: 23px; }
+.love-note.seen .note-seal { animation: seal-arrives .85s .15s both; }
+
+.adults { background: linear-gradient(155deg, #fcf1ee, #faf6ef); }
+.adults > .eyebrow, .adults-card > .eyebrow { color: #805745; }
+.adults h2 { color: #713b4a; margin-bottom: 28px; }
+.adults-card {
+  max-width: 530px;
+  margin: auto;
+  padding: 30px 30px 37px;
+  border: 1px solid #d5b7b6;
+  border-radius: 95px 95px 5px 5px;
+  background: #fffaf5aa;
+}
+.adults-card .icon { width: 40px; height: 40px; margin-bottom: 16px; }
+.adults-card .eyebrow { margin-bottom: 12px; }
+.adults-card .quote { color: #713b4a; font-size: 27px; line-height: 1.45; }
+.adults-card .body-copy { color: #574b46; }
+.petal:nth-child(4n) {
+  width: 7px;
+  height: 7px;
+  border-radius: 0;
+  clip-path: polygon(50% 0, 62% 37%, 100% 50%, 62% 62%, 50% 100%, 37% 62%, 0 50%, 37% 37%);
+  background: #c3a36185;
+}
+@keyframes flower-breeze { from { translate: 0 0; } to { translate: -4px 5px; } }
+@keyframes seal-glimmer { 0%, 62% { background-position: 100% 0; } 88%, 100% { background-position: 0 0; } }
+@keyframes rings-float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
+@keyframes name-entrance { from { opacity: 0; translate: 0 16px; } to { opacity: 1; translate: 0 0; } }
+@keyframes seal-arrives { from { opacity: 0; scale: .84; } to { opacity: 1; scale: 1; } }
+.motion-off .hero > .names, .motion-off .hero > .date-line, .motion-off .hero > .quote,
+.motion-off .love-note .note-seal { animation: none; opacity: 1; translate: none; scale: 1; }
+@media (max-width: 500px) {
+  .cover:after { inset: 16px; }
+  .hero { padding-bottom: 100px; }
+  .love-note { padding: 65px 24px 52px; }
+  .note-paper { padding: 44px 23px 34px; }
+  .love-note .note-paper h2 { font-size: clamp(32px, 9vw, 41px); }
+  .note-paper > p { font-size: 15px; }
+  .note-seal { margin-top: -73px; }
+  .note-flower { width: 100px; opacity: .65; }
+  .adults-card { padding: 29px 21px 30px; }
+  .adults-card .quote { font-size: 25px; }
+}
+
+/* Marco de jardín para la portada y el saludo de los novios. */
+.cover, .hero {
+  --garden-edge: #b7c9b5;
+  background:
+    radial-gradient(ellipse at 12% 22%, #f8e4e1a3, transparent 45%),
+    radial-gradient(ellipse at 88% 80%, #f5dedb9c, transparent 43%),
+    linear-gradient(155deg, #dae6d7, var(--garden-edge));
+}
+.cover { padding-block: 62px 72px; }
+.cover:after { inset: 13px; border-color: #57776066; outline-color: #fffaf4a6; }
+.cover-content, .hero-arch {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid #af986877;
+  border-radius: 48% 48% 8px 8px / 24% 24% 8px 8px;
+  background: radial-gradient(ellipse at 50% 38%, #fffdf9, #f9f0e8);
+  box-shadow: 0 22px 54px #39574229, inset 0 0 30px #fffaf7;
+}
+.cover-content::before, .hero-arch::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid #b8a0766e;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.cover-content { width: min(100%, 590px); padding: 40px 30px 21px; }
+.cover-monogram .icon { width: 48px; height: 48px; margin: 0 auto 14px; }
+.cover h1 { margin-bottom: 15px; }
+.cover .envelope { margin-top: 28px; margin-bottom: 13px; }
+.cover-top, .cover-bottom { z-index: 2; width: min(44%, 365px); opacity: 1; }
+.cover-top { top: -13px; right: -14px; }
+.cover-bottom { bottom: -18px; left: -15px; }
+.hero { padding: 85px 35px 80px; }
+.hero-arch { max-width: 580px; margin: auto; padding: 57px 35px 52px; }
+.hero-arch > .icon { margin-bottom: 17px; animation: rings-float 4s ease-in-out infinite; }
+.hero-arch > .eyebrow { margin-bottom: 11px; }
+.hero .names { margin: 13px auto 19px; animation: name-entrance 1.15s both; }
+.hero .names i { margin-block: 7px; }
+.hero .ornament { margin-block: 14px; }
+.hero .date-line { margin-bottom: 17px; }
+.hero .quote { font-size: 24px; margin: 0 auto; }
+.hero-top, .hero-bottom { z-index: 2; width: min(44%, 350px); opacity: .96; }
+.hero-top { top: -12px; right: -22px; }
+.hero-bottom { bottom: -35px; left: -20px; }
+.hero-flourish { position: absolute; inset: 0; pointer-events: none; color: #bc9d65; }
+.hero-flourish span { position: absolute; font-size: 19px; animation: arch-sparkle 4.5s ease-in-out infinite; }
+.hero-flourish span:nth-child(1) { top: 28%; left: 13%; }
+.hero-flourish span:nth-child(2) { top: 38%; right: 12%; animation-delay: -1.5s; }
+.hero-flourish span:nth-child(3) { top: 54%; left: 16%; animation-delay: -3s; }
+@keyframes arch-sparkle {
+  0%, 100% { opacity: .4; scale: .85; }
+  50% { opacity: 1; scale: 1.13; }
+}
+.motion-off .hero .names { animation: none; }
+@media (max-width: 500px) {
+  .cover { padding: 64px 24px 60px; }
+  .cover-content { padding: 31px 19px 14px; }
+  .cover-monogram .icon { width: 40px; height: 40px; margin-bottom: 9px; }
+  .cover .eyebrow { margin-bottom: 11px; }
+  .cover h1 { font-size: clamp(50px, 16vw, 69px); line-height: 1.04; margin-bottom: 15px; }
+  .cover h1 i { font-size: 31px; margin: 4px 0; }
+  .cover .envelope { margin-top: 23px; }
+  .cover .open-note { padding-inline: 5px; font-size: 16px; }
+  .cover-top, .cover-bottom { width: min(54%, 205px); }
+  .hero { padding: 69px 23px 66px; }
+  .hero-arch { padding: 44px 22px 37px; }
+  .hero-arch > .icon { width: 46px; height: 46px; }
+  .hero .names { font-size: clamp(62px, 20vw, 88px); }
+  .hero .names i { font-size: 34px; }
+  .hero .date-line { font-size: 16px; }
+  .hero .quote { font-size: 21px; }
+  .hero-top, .hero-bottom { width: min(54%, 205px); }
+  .hero-bottom { bottom: -23px; }
+  .hero-flourish span { font-size: 15px; }
+}
